@@ -1,0 +1,107 @@
+
+.form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+  }
+  
+
+  .card-body {
+    padding: 20px;
+  }
+  
+
+  h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+
+  .form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+  }
+  
+
+  .form-control, .form-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+    background-color: #f9f9f9;
+  }
+  
+
+  .form-control:focus, .form-select:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #ffffff;
+  }
+  
+
+  .mb-2 {
+    margin-bottom: 20px;
+  }
+  
+
+  .text-danger {
+    color: #e74c3c;
+    font-size: 0.875em;
+  }
+  
+
+  .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: #582f80;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .form-control:focus, .form-select:focus {
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2);
+  }
+  
+
+  .form-control:hover, .form-select:hover {
+    background-color: #f0f8ff;
+  }
+  
+
+  @media (max-width: 768px) {
+    .form-container {
+      padding: 20px;
+      max-width: 100%;
+    }
+  
+    h3 {
+      font-size: 1.5em;
+    }
+  
+    .btn-primary {
+      font-size: 1.1em;
+    }
+  }
+  
